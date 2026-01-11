@@ -10,9 +10,9 @@
 </p>
 {{ end }}{{ end }}
 
-+{{ if eq .Type "book" }}
-+{{- partial "book-details.html" . -}}
-+{{ end }}
+{{ if eq .Type "book" }}
+{{- partial "book-details.html" . -}}
+{{ end }}
 
 <content>
   {{ .Content }}
